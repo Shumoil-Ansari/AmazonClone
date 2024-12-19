@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  padding-top: 7px;
+}
+
+.amazon-logo {
+  width: 117px;
+  height: 40px;
+  background: url("./Images/amazonI.png");
+  background-size: cover;
+}
+
+.signin-section {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.sign-in {
+  width: 348px;
+  height: 358.59px;
+  padding: 20px 26px;
+  color: #111111;
+  font-size: 13px;
+  border: 1.4px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.sign-heading {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+.sign-label {
+  font-size: 13px;
+  font-weight: 670;
+  padding: 0 0 2px 2px;
+}
+
+.signin-input {
+  width: 100%;
+  height: 31px;
+  background: white;
+  padding: 3px 7px;
+  margin-top: 2.5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.signin-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0096ff, inset 0 0 30px #e8f8f8;
+}
+
+.continue {
+  width: 100%;
+  height: 30px;
+  padding: 1px 6px;
+  background-color: rgba(255, 215, 39, 0.959);
+  margin: 14px 0;
+  border: 1px solid rgb(255, 208, 0);
+  border-radius: 7px;
+}
+
+.continue:hover {
+  background: rgb(241, 203, 30);
+  cursor: pointer;
+}
+
+.privacy-text {
+  font-size: 12px;
+  font-weight: 550;
+  margin-top: 4px;
+}
+
+.privacy-text a {
+  text-decoration: none;
+  color: #0066c0;
+  margin: 0 3px;
+}
+
+.need-text {
+  width: 100%;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  margin: 22px 0;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  background: white;
+  position: relative;
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  top: 13%;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  border-left: 4px solid rgba(66, 64, 64, 0.856);
+}
+
+.help {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.box {
+  width: 100%;
+  height: 57px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 8px;
+}
+
+.box-text {
+  font-size: 13px;
+  font-weight: 650;
+  margin: 16px 0;
+}
+
+.box-anchor {
+  font-size: 13px;
+  font-weight: 560;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.anchor:hover {
+  text-decoration: 1px solid rgba(192, 7, 7, 0.61) underline;
+  color: rgba(192, 7, 7, 0.61);
+}
+
+.line {
+  width: 350px;
+  text-align: center;
+  margin: 30px 0 19px 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #767676;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 0.1em;
+}
+
+.line span {
+  padding: 0 10px;
+  background-color: white;
+}
+
+.bttn {
+  width: 348px;
+  height: 30px;
+  background: white;
+  color: #0f1111;
+  font-size: 13px;
+  font-weight: 520;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 26px;
+}
+
+.bttn:hover {
+  background: #e8f8f8;
+}
+
+.bttn:focus {
+  box-shadow: 0 0 5px #0096ff, inset 0 0 30px #e8f8f8;
+  outline: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.foot-panel1 {
+  width: 100%;
+  height: 42px;
+  border-top: 2px solid #ebe8e8;
+  background: linear-gradient(#f6f6f6, white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.box-anchor {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.foot-panel1 a {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.foot-panel2 {
+  width: 100%;
+  height: 57px;
+  background: white;
+}
+
+.foot-panel2 h6 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #555555;
+  text-align: center;
+}

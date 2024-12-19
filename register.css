@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  padding-top: 7px;
+}
+
+.amazon-logo {
+  width: 117px;
+  height: 40px;
+  background: url("./Images/amazonI.png");
+  background-size: cover;
+}
+
+.register-section {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.register {
+  width: 348px;
+  height: 595.8px;
+  padding: 14px 18px;
+  color: #111111;
+  font-size: 13px;
+  border: 1.4px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.register-heading {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+.register-label {
+  font-size: 13px;
+  font-weight: 670;
+  padding: 0 0 2px 2px;
+}
+
+.register-input {
+  width: 100%;
+  height: 31px;
+  background: white;
+  padding: 3px 7px;
+  margin: 2.5px 0 13px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.register-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0096ff, inset 0 0 30px #e8f8f8;
+}
+
+.register-input::placeholder {
+  font-weight: 550;
+}
+
+.icon {
+  display: flex;
+  margin: -5px 0 13px 0;
+}
+
+.i-icon {
+  width: 12px;
+  height: 12px;
+  background: url("./Images/i-icon.png");
+  background-size: cover;
+  margin: 2px 3px 0 0;
+}
+
+.i-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.continue {
+  width: 100%;
+  height: 30px;
+  padding: 1px 6px;
+  background-color: rgba(255, 215, 39, 0.959);
+  border: 1px solid rgb(255, 208, 0);
+  border-radius: 7px;
+  margin-top: 5px;
+}
+
+.continue:hover {
+  background: rgb(241, 203, 30);
+  cursor: pointer;
+}
+
+.privacy-text {
+  font-size: 12px;
+  font-weight: 550;
+  margin: 25px 0;
+}
+
+.privacy-text a {
+  text-decoration: none;
+  color: #0066c0;
+  margin-right: 3px;
+}
+
+.box {
+  width: 100%;
+  height: 57px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 19px;
+  margin: 4px 0 10px;
+}
+
+.box-text {
+  font-size: 13px;
+  font-weight: 650;
+  margin-top: 16px;
+}
+
+.box-anchor {
+  font-size: 13px;
+  font-weight: 560;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.anchor:hover {
+  text-decoration: 1px solid rgba(192, 7, 7, 0.61) underline;
+  color: rgba(192, 7, 7, 0.61);
+}
+
+.signin-box {
+  width: 100%;
+  height: 44px;
+  border-top: 2px solid #ebe8e8;
+  background: linear-gradient(#f6f6f6, white, white, white, white, white);
+  display: flex;
+  align-items: flex-end;
+}
+
+.sign-in {
+  font-size: 13px;
+  font-weight: 550;
+  margin-right: 6px;
+}
+
+.signin-box a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0066c0;
+  margin-right: 4px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #0066c0;
+}
+
+.foot-panel1 {
+  width: 100%;
+  height: 42px;
+  border-top: 2px solid #ebe8e8;
+  background: linear-gradient(#f6f6f6, white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 27px 0 15px;
+}
+
+.box-anchor {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.foot-panel1 a {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.foot-panel2 {
+  width: 100%;
+  height: 57px;
+  background: white;
+}
+
+.foot-panel2 h6 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #555555;
+  text-align: center;
+}
